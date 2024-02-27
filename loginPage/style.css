@@ -1,0 +1,120 @@
+* body{
+    box-sizing: border-box;
+    background-color: #d0d0d5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;
+}
+.bg-dark {
+    background-color: #000!important;
+}
+.login-nav img{
+    height: 27px;
+    position: absolute;
+    left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-border{
+    margin-top: 60px;
+    border: 3px solid #000;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.fire-img img{
+    top: 128px;
+    height: 37px;
+    width: 37px;
+    position: absolute;
+    left: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-heading{
+    font-size: 29px;
+    text-align: center;
+    font-weight: 300;
+}
+.login-heading p{
+    margin-top: -180px;
+}
+.g-img img{
+    height: 40px;
+    width: 40px;;
+}
+.login-tabs {
+    width: 330px;
+    height: 50px;
+    top: 285px;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+}
+.login-tab{
+    border: 3px solid #d7d2d2;
+    margin: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+.login-mail-tab{
+    width: 330px;
+    height: 50px;
+    top: 444px;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    border: 3px solid #d7d2d2;
+    margin: 10px;
+    padding: 3px;
+    left: 540px;
+}
+.login-tab :hover{
+    background-color: #d7d2d2;
+}
+.login-tabs p{
+    margin-left: 31px;
+    margin-top: -36px;
+    font-size: 19px;
+    font-weight: 300;
+}
+.login-tabs a{
+    text-decoration: none;
+    color: #000;
+}
+.login-tab-email{
+    width: 330px;
+    height: 50px;
+    top: 520px;
+    position: absolute;
+    text-align: center;
+    background-color: #f1be32;
+    margin-left: -8px;
+}
+.login-tab-email p{
+    font-weight: 300;
+    margin-top: 23px;
+}
+.login-tab-email a{
+    margin-top: 38px;
+    font-size: 16px;
+
+}
+.login-tab-email h5{
+    margin-top: -27px;
+    text-decoration: none;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+
